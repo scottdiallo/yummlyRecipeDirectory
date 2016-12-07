@@ -27,7 +27,7 @@ var showError = function(error){
 
 
 var getRecipe = function(keyword,cuisine) {
-
+//making the api call to yummly 
 	var result = $.ajax({
 		url: "https://api.yummly.com/v1/api/recipes?_app_id=6d9e22ab&_app_key=e4270a20949b90bf9cca1017d935f12b&q=" + keyword + "&allowedCuisine[]=cuisine^cuisine-" + cuisine + "&requirePictures=true",
 		dataType: "jsonp",
