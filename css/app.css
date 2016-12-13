@@ -1,0 +1,17 @@
+/*background-image by https://unsplash.com/@gregbourolias*/
+
+html {
+    box-sizing: border-box;
+    background: url(../images/background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container {
+    max-width: auto;
+    margin: 2rem auto 5rem auto;
+    background: url("../images/transparent.jpg");
+    border-radius: 1rem;
+}
