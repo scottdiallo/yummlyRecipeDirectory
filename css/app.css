@@ -9,9 +9,115 @@ html {
     background-size: cover;
 }
 
+body {
+    font-family: 'Droid Serif', serif;
+    margin: 0, auto;
+    text-align: center;
+}
+
 #container {
-    max-width: auto;
-    margin: 2rem auto 5rem auto;
+    margin: 2rem;
     background: url("../images/transparent.jpg");
     border-radius: 1rem;
+    min-height: 40rem;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+}
+
+.heading {
+    font-size: .5em;
+    color: white
+}
+
+.search {
+    height: 3.5rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    font-size: 1rem;
+}
+
+#ingredient {
+    height: 3.3em;
+    width: 27em;
+    border-radius: 0.4em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.recipe-details {
+    list-style-type: none;
+}
+
+.recipe-details li {
+    display: inline-block;
+    width: 33%;
+    border: 1px solid #F6CECE;
+    border-radius: 0.5rem;
+    list-style: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2rem;
+    overflow: scroll;
+    height: 30rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+/*optimizing to be mobile responsive*/
+
+@media (max-width:450px) {
+    body {
+        background: #2980b9;
+        display: none;
+    }
+}
+
+@media (min-width:451px) and (max-width:540px) {
+    /*
+    body {
+        background: #8e44ad;
+    }
+*/
+    .heading {
+        font-size: 1rem;
+    }
+    .search {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width:541px) and (max-width:768px) {
+    /*
+    body {
+        background: #27ae60;
+    }
+*/
+    .heading {
+        font-size: .3568em;
+    }
+    .search {
+        margin-top: 1.5rem;
+    }
+    .heading {
+        margin-bottom: 7rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    /*
+    body {
+        background: #16a085;
+    }
+*/
+}
+
+@media (min-width:1025px) and (max-width:1200px) {}
+
+@media (min-width:1201px) {
+    /*
+    body {
+     background: #ffd700;
+ }
+*/
 }
