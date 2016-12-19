@@ -84,6 +84,14 @@ body {
     }
     .search {
         margin-top: 1.5rem;
+        height: 2.5rem;
+    }
+    #ingredient {
+        height: 2.3em;
+        width: 17em;
+    }
+    .recipe-details li {
+        width: auto;
     }
 }
 
@@ -94,13 +102,13 @@ body {
     }
 */
     .heading {
-        font-size: .3568em;
+        font-size: .34em;
     }
     .search {
         margin-top: 1.5rem;
     }
     .heading {
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -110,6 +118,7 @@ body {
         background: #16a085;
     }
 */
+    font-size: 1.9em;
 }
 
 @media (min-width:1025px) and (max-width:1200px) {}
